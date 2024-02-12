@@ -1,0 +1,44 @@
+.contenido{
+    text-align: center;
+}
+
+.contenido:hover{
+    /* margin: 200px; */
+
+    /* rotate: 30deg;
+    translate: 30px 30px;
+    scale: 200%; */
+    /* +skew = transform, todo a la vez */
+
+    transform: 
+    rotate(30deg) 
+    translate(30px, 30px) 
+    scale(200%) 
+    skewX(50deg);
+    
+    transition: 2s;
+}
+
+.cambio{
+    background-image: url(Arale_by_sauron88-d5a00n0.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    
+}
+
+.cambio:hover{
+    /* background-image: url(popeye.jpg); */
+    opacity: 0%;
+}
+
+span{
+    color: red;
+    font-size: xx-large;
+}
+
+p{
+    width: 40%;
+    display: inline;
+}
+
